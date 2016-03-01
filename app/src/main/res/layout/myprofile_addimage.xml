@@ -40,7 +40,6 @@
             android:layout_gravity="center"
             android:layout_weight="0.2"
             android:contentDescription="icon"
-            android:onClick="close_dp"
             android:src="@drawable/close" />
     </LinearLayout>
 

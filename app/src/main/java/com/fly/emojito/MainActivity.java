@@ -40,6 +40,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     static AlertDialog dialog;
     static ImageView mImageView;
+    static ImageView close_dp;
+
+
     static final int PICK_FROM_CAMERA = 1;
     static final int CROP_FROM_CAMERA = 2;
     static final int PICK_FROM_FILE = 3;
@@ -56,6 +59,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         captureImageInitialization();
 
         mImageView = (ImageView) findViewById(R.id.profilePic);
+        close_dp = (ImageView) findViewById(R.id.close_dp);
+
         //mImageView.setOnClickListener(new View.OnClickListener() {
          //   @Override
          //   public void onClick(View v) {
@@ -73,20 +78,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
